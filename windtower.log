@@ -4556,3 +4556,143 @@ Level flags = 0
 Total triangle count: 5137
 Writing c:\users\sarah\documents\windtower\windtower.bsp
 15 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\sarah\Documents\windtower\windtower.vmf
+Patching WVT material: maps/windtower/nature/blendrockblack02a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\sarah\Documents\windtower\windtower.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (119936 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 69 texinfos to 45
+Reduced 9 texdatas to 8 (244 bytes to 203)
+Writing C:\Users\sarah\Documents\windtower\windtower.bsp
+4 seconds elapsed
+
+
+
+4 threads
+reading c:\users\sarah\documents\windtower\windtower.bsp
+reading c:\users\sarah\documents\windtower\windtower.prt
+ 610 portalclusters
+2427 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 220 visible clusters (0.29%)
+Total clusters visible: 75420
+Average clusters visible: 123
+Building PAS...
+Average clusters audible: 582
+visdatasize:82374  compressed from 97600
+writing c:\users\sarah\documents\windtower\windtower.bsp
+31 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\sarah\documents\windtower\windtower.bsp
+1722 faces
+5 degenerate faces
+326766 square feet [47054340.00 square inches]
+10 Displacements
+1818 Square Feet [261820.50 Square Inches]
+1717 patches before subdivision
+34435 patches after subdivision
+6 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7456167, max 815
+transfer lists:  56.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5680, 3910, 1863)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(846, 603, 256)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(170, 101, 38)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(55, 17, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(28, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(17, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0152 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                232/8192         2784/98304    ( 2.8%) 
+brushsides            7651/65536       61208/524288   (11.7%) 
+planes               11896/65536      237920/1310720  (18.2%) 
+vertexes              3266/65536       39192/786432   ( 5.0%) 
+nodes                 1316/65536       42112/2097152  ( 2.0%) 
+texinfos                45/12288        3240/884736   ( 0.4%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos               10/0            1760/0        ( 0.0%) 
+disp_verts             810/0           16200/0        ( 0.0%) 
+disp_tris             1280/0            2560/0        ( 0.0%) 
+disp_lmsamples        9396/0            9396/0        ( 0.0%) 
+faces                 1722/65536       96432/3670016  ( 2.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              809/65536       45304/3670016  ( 1.2%) 
+leaves                1318/65536       42176/2097152  ( 2.0%) 
+leaffaces             2049/65536        4098/131072   ( 3.1%) 
+leafbrushes           1326/65536        2652/131072   ( 2.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12463/512000      49852/2048000  ( 2.4%) 
+edges                 7236/256000      28944/1024000  ( 2.8%) 
+LDR worldlights          6/8192          528/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             90/32768         900/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1326/65536        2652/131072   ( 2.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     2123772/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       82374/16777216 ( 0.5%) 
+entdata               [variable]        3716/393216   ( 0.9%) 
+LDR ambient table     1318/65536        5272/262144   ( 2.0%) 
+HDR ambient table     1318/65536        5272/262144   ( 2.0%) 
+LDR leaf ambient      1208/65536       33824/1835008  ( 1.8%) 
+HDR leaf ambient      1318/65536       36904/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/274      ( 0.4%) 
+pakfile               [variable]      212164/0        ( 0.0%) 
+physics               [variable]      119936/4194304  ( 2.9%) 
+physics terrain       [variable]        3444/1048576  ( 0.3%) 
+
+Level flags = 0
+
+Total triangle count: 5137
+Writing c:\users\sarah\documents\windtower\windtower.bsp
+15 seconds elapsed
